@@ -1,9 +1,9 @@
 import pandas as pd  # Import Pandas
 
 # Load your local CSVs (use your paths)
-df1 = pd.read_csv('/home/patrick/Prog/monitoringTest/caseOnePipeline/checkout_1.csv')
+df1 = pd.read_csv('checkout_1.csv')
 df1['dataset'] = 'checkout_1'  # Add label
-df2 = pd.read_csv('/home/patrick/Prog/monitoringTest/caseOnePipeline/checkout_2.csv')
+df2 = pd.read_csv('checkout_2.csv')
 df2['dataset'] = 'checkout_2'
 
 # Combine into one DataFrame
